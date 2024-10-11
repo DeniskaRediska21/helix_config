@@ -1,0 +1,16 @@
+
+theme = "molokai"
+
+[editor]
+line-number = "relative"
+rulers = [120]
+
+[keys.normal]
+esc = ["collapse_selection"]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
