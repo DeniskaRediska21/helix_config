@@ -14,7 +14,8 @@ C-n = ":new"
 tab = ":buffer-next"
 S-tab = ":buffer-previous"
 
-space."/" = "toggle_comments"
+C-7 = "toggle_comments"
+"C-/" = "toggle_comments"
 
 X = "extend_line_above" # Shift+x to select the whole line above
 D = [ "extend_to_line_end", "change_selection"] # Wipe and edit the current line from cursor position
