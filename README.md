@@ -3,6 +3,7 @@
 
 db -> usr/local/bin 
 chmod +x usr/local/bin/db
+*better done with soft-links*
 
 ## Use
 
