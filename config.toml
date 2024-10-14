@@ -5,6 +5,8 @@ theme = "molokai"
 line-number = "relative"
 rulers = [120]
 bufferline = "always"
+cursorline = true
+color-modes = true
 
 [keys.normal]
 esc = ["collapse_selection"]
