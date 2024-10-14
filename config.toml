@@ -24,6 +24,10 @@ C-7 = "toggle_comments"
 X = "extend_line_above" # Shift+x to select the whole line above
 D = [ "extend_to_line_end", "change_selection"] # Wipe and edit the current line from cursor position
 
+
+[keys.normal.t]
+m = ":insert-output snippets m"
+
 [keys.insert]
 
 C-h = "move_char_left"
