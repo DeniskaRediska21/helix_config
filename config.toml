@@ -28,11 +28,11 @@ D = [ "extend_to_line_end", "change_selection"] # Wipe and edit the current line
 
 
 [keys.normal.t]
-m = ":insert-output snippets m"
-c = ":insert-output snippets c"
-z = ":insert-output snippets z"
-l = ":insert-output snippets l"
-e = ":insert-output snippets e"
+m = ":insert-output bash /home/user/.config/helix/snippets m"
+c = ":insert-output bash /home/user/.config/helix/snippets c"
+z = ":insert-output bash /home/user/.config/helix/snippets z"
+l = ":insert-output bash /home/user/.config/helix/snippets l"
+e = ":insert-output bash /home/user/.config/helix/snippets e"
 
 [keys.insert]
 
