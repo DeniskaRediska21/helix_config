@@ -29,6 +29,10 @@ D = [ "extend_to_line_end", "change_selection"] # Wipe and edit the current line
 
 [keys.normal.t]
 m = ":insert-output snippets m"
+c = ":insert-output snippets c"
+z = ":insert-output snippets z"
+l = ":insert-output snippets l"
+e = ":insert-output snippets e"
 
 [keys.insert]
 
