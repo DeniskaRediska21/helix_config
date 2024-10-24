@@ -27,6 +27,11 @@ X = "extend_line_above" # Shift+x to select the whole line above
 D = [ "extend_to_line_end", "change_selection"] # Wipe and edit the current line from cursor position
 
 
+j = "move_char_left"
+l = "move_visual_line_up"
+k = "move_visual_line_down"
+"backspace" = "move_char_right"
+
 [keys.normal.t]
 m = ":insert-output bash /home/user/.config/helix/snippets m"
 c = ":insert-output bash /home/user/.config/helix/snippets c"
@@ -34,12 +39,11 @@ z = ":insert-output bash /home/user/.config/helix/snippets z"
 l = ":insert-output bash /home/user/.config/helix/snippets l"
 e = ":insert-output bash /home/user/.config/helix/snippets e"
 
-[keys.insert]
-
-C-h = "move_char_left"
-C-j = "move_visual_line_down"
-C-k = "move_visual_line_up"
-C-l = "move_char_right"
+# [keys.insert]
+# C-j = "move_char_left"
+# C-m = "move_visual_line_down"
+# C-k = "move_visual_line_up"
+# C-l = "move_char_right"
 # S-j = ["normal_mode", "extend_to_line_bounds", "yank", "open_below", "replace_with_yanked", "collapse_selection"]
 # S-k = ["normal_mode", "extend_to_line_bounds", "yank", "open_above", "replace_with_yanked", "collapse_selection"]
 
