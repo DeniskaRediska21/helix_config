@@ -39,6 +39,13 @@ z = ":insert-output bash /home/user/.config/helix/snippets z"
 l = ":insert-output bash /home/user/.config/helix/snippets l"
 e = ":insert-output bash /home/user/.config/helix/snippets e"
 
+[keys.select]
+j = "move_char_left"
+l = "move_visual_line_up"
+k = "move_visual_line_down"
+"backspace" = "move_char_right"
+
+
 # [keys.insert]
 # C-j = "move_char_left"
 # C-m = "move_visual_line_down"
